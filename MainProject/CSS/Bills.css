@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 47%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.sidebox
+{
+    width: 95%;
+    height: 500px;
+    background: #E4E6EB;
+    color: #B0B3B8;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+} 
+button
+{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover
+{
+    background: #fff;
+    color: black;
+    transition: 0.5s;
+}
+.buttons
+{
+    top: 14%;
+    left: 75%;
+    position: absolute;
+}
+.content h1
+{
+    position: absolute;
+    top: 2%;
+    left: 19%;
+    font-size: 280px;
+    margin-top: 80px;
+    z-index: -999;
+}
+.form select
+{
+    width: 85%;
+    margin-bottom: 20px;
+    background: #fff;
+    height: 40px;
+    color: black;
+    font-size: 13px;
+    border: none;
+}
+.form
+{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 16%;
+    left: 35%;
+}
+.form p
+{
+    margin: 0;
+    padding: 5px;
+    color: #000;
+    font-weight: bold;
+}
+input[type="submit"],[type="reset"]
+{
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+input[type="submit"]:hover,[type="reset"]:hover
+{
+    background: #fff;
+    color: black;
+    transition: 0.5s;
+}

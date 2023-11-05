@@ -1,0 +1,73 @@
+body
+{
+    font-family: sans-serif;
+    background-color: #18191A;
+    color: white;
+}
+table 
+{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+table .heading 
+{
+    background-color: #009688;
+    color: #ffffff;
+    text-align: left;
+}
+table th,
+table td 
+{
+    padding: 12px 15px;
+}
+table .data 
+{
+    border-bottom: 1px solid #242526;
+}
+table .data:nth-of-type(even) 
+{
+    background-color: #3A3B3C;
+}
+table .data:last-of-type 
+{
+    border-bottom: 2px solid #009688;
+}
+table .data.active-row 
+{
+    font-weight: bold;
+    color: #009688;
+}
+button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #009688;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+button:hover
+{
+    background-color: black;
+}
+img
+{
+    width: 40px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "KKVIB",
+    "short_name": "KKVIB",
+    "start_url": "http://localhost/MainProject/Login.php",
+    "display": "standalone",
+    "background_color": "#18191A",
+    "theme_color": "#242526",
+    "orientation": "portrait-primary",
+    "icons":
+    [
+        {
+            "src": "assets/gandhi.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
